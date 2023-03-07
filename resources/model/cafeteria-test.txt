@@ -1,0 +1,15 @@
+*
+* cafeteria
+* Modelo de una cafeteria
+*
+
+* end-entities
+
+*
+* Atiende clientes
+*
+clientes Generate        Uniform,15,8,0.0,0.0,0.0,0     ;<<--comment-->>
+camarero Seize           camarero     ;<<--comment-->>
+        Advance         Uniform,4,1     ;<<--comment-->>
+        Release         camarero     ;<<--comment-->>
+salida  Terminate       1     ;<<--comment-->>

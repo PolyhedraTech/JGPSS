@@ -1,0 +1,17 @@
+JGPSS model report - generate test
+2017-10-10 21:10:01.626
+
+START TIME   END TIME     BLOCKS     FACILITIES      STORAGES  
+0,000000     29,950348    2          0               0         
+
+
+PROCESS: process
+
+LABEL        LOC    BLOCK TYPE   ENTRY COUNT    CURRENT COUNT RETRY     
+gen          0      Generate     6              1              0         
+term         1      Terminate    5              0              0         
+
+
+CEC   XN    PRI       M1        ASSEM     CURRENT   NEXT      PARAMETER VALUES    
+      6     0,000000  24,924654 1         0                             
+

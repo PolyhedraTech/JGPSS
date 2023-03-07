@@ -1,0 +1,15 @@
+*
+* Seize test
+* To test the Seize Block
+*
+
+* end-entities
+
+*
+* p1
+*
+        Generate        Uniform,4.0,1.0,0.0,0.0,0.0,0     ;<<--comment-->>
+        Seize           seize     ;<<--comment-->>
+        Advance         Uniform,4.0,1.0     ;<<--comment-->>
+        Release         seize     ;<<--comment-->>
+        Terminate       1     ;<<--comment-->>

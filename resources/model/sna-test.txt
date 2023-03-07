@@ -1,0 +1,13 @@
+*
+* test sna
+* test sna
+*
+
+var INTEGER 3
+* end-entities
+
+*
+* p1
+*
+        Generate        Uniform,V$var,0,0.0,0.0,0.0,0     ;<<--comment-->>
+        Terminate       1     ;<<--comment-->>

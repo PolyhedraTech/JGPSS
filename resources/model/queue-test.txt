@@ -1,0 +1,17 @@
+*
+* Queue test
+* to test the Queue Block
+*
+
+* end-entities
+
+*
+* p1
+*
+        Generate        Uniform,3.0,1.0,0.0,0.0,0.0,0     ;<<--comment-->>
+        Queue           queue,1     ;<<--comment-->>
+        Seize           seize     ;<<--comment-->>
+        Advance         Uniform,5.0,1.0     ;<<--comment-->>
+        Depart          queue,1     ;<<--comment-->>
+        Release         seize     ;<<--comment-->>
+        Terminate       1     ;<<--comment-->>

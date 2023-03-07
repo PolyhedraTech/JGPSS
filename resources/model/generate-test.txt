@@ -1,0 +1,12 @@
+*
+* generate test
+* to test the generate block
+*
+
+* end-entities
+
+*
+* process
+*
+gen     Generate        Uniform,5.0,1.0,0.0,0.0,0.0,0     ;<<--comment-->>
+term    Terminate       1     ;<<--comment-->>

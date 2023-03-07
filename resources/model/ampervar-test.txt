@@ -1,0 +1,18 @@
+*
+* AMPERVAR test
+* to test the AMPERVAR functionality
+*
+
+a INTEGER 12
+b INTEGER 12
+c INTEGER 20
+d STRING hola
+e REAL 3.4
+variable REAL 3.4
+* end-entities
+
+*
+* p1
+*
+        Generate        Uniform,4.0,1.0,0.0,0.0,0.0,0     ;<<--comment-->>
+        Terminate       1     ;<<--comment-->>

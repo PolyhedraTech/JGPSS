@@ -1,0 +1,15 @@
+*
+* Function test
+* To Test the Function entity
+*
+
+function FUNCTION RN1 D2 .4,1/1,1
+function2 FUNCTION RN1 D3 .4,1/6,1/1,1
+function3 FUNCTION RN1 D3 .1,1/4,1/1,1
+* end-entities
+
+*
+* p1
+*
+        Generate        Uniform,2.0,1.0,0.0,0.0,0.0,0     ;<<--comment-->>
+        Terminate       1     ;<<--comment-->>

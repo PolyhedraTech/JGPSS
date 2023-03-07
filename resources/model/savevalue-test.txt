@@ -1,0 +1,14 @@
+*
+* SaveValue test
+* To Test the SaveValue Test
+*
+
+savevalue SAVEVALUE 20.0
+* end-entities
+
+*
+* p1
+*
+        Generate        Uniform,5.0,1.0,0.0,0.0,0.0,0     ;<<--comment-->>
+        SavevAvg        savevalue,1-     ;<<--comment-->>
+        Terminate       1     ;<<--comment-->>
